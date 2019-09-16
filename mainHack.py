@@ -3,13 +3,16 @@
 Created on Sun Sep 15 17:24:13 2019
 
 @author: Damiano Massella
-just to test git capabilities
 """
 import pyperclip
 
 
 
 def addingset(original):
+    ''' this function add the set () lumerical command line to all the lines that
+    do not end with ; 
+    the set command require a property and a value they are separated by , 
+    if the value is a string, use! for adding the '' '''
     original=original.rstrip()
     if len(original)!=0:
         if original[-1]==';' or original[0]=='#':
@@ -32,7 +35,13 @@ def addingset(original):
 
 
 
-def execution(readfile):
+def execution(readfile):   
+    ''' this function add the set () lumerical command line to all the lines that
+    do not end with ;
+    the input is a text file containing all the commands for lumerical
+    the result is written to the write_out.txt file and copyed to the clipboar 
+    the set command require a property and a value they are separated by , 
+    if the value is a string, use! for adding the '' '''
     readfilename=readfile
     readfile=open(readfilename)
     writefilename='write_out.txt'
