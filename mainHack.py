@@ -3,6 +3,7 @@
 Created on Sun Sep 15 17:24:13 2019
 
 @author: Damiano Massella
+just to test git capabilities
 """
 import pyperclip
 
