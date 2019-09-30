@@ -75,7 +75,7 @@ def execution(readfile):
 
     
     
-execution('./pyLux/testing.txt')
+execution('./testing.txt')
     
     
     

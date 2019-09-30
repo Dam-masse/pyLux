@@ -1,0 +1,7 @@
+prova; #commento test
+
+set('proprieta',modulo); #commentotest
+
+set('proprieta','modulo');
+
+
