@@ -7,7 +7,7 @@ The use is quite simple
 
 
 1. Prepare a txt file that will contain your lumerical script formatted with the rules that will be mentioned in Formatting
-2. Go to the mainHack.py script and modify the last programm line, inserting your txt name and path
+2. Go to the mainHack.py script and modify the last programm line, inserting your txt name and path, or you the load the script as a module and call the function execution( path)
 3. The lumerical formatting is copied on your clipboard and in the write_out.txt file in the pyLux directory 
 4. Go to lumerical and use paste on and empty editor.
 
